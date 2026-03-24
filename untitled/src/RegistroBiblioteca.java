@@ -25,4 +25,8 @@ public class RegistroBiblioteca {
     public void mostrarAcervo() {
         System.out.println("Acervo atual: " + this.livrosRegistrados);
     }
+
+    public List<String> getLivrosRegistrados() {
+        return this.livrosRegistrados;
+    }
 }
